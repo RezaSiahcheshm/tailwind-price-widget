@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Price List Widget</title>
+    <link rel="stylesheet" href="/output.css" />
+  </head>
+  <body class="bg-gray-900">
+    <!-- Main Container -->
+    <div class="container mx-auto max-w-5xl py-12 px-4 lg:px-0">
+      <!-- Header Section -->
+      <div class="text-center">
+        <h2 class="text-lg font-semibold text-indigo-400">قیمت ها</h2>
+        <p class="text-white text-3xl lg:text-6xl font-bold mt-3">
+          هاستی بدون نیاز به پیکربندی !
+        </p>
+        <p
+          class="text-gray-300 text-pretty text-lg lg:text-xl sm:text-xl/8 font-medium max-w-3xl mx-auto mt-5"
+        >
+          برای هر فریم‌ورک و زبان برنامه‌نویسی، هاستی مخصوص تهیه شده و نیازی
+          نیست که شما کاری برای آماده‌سازی انجام دهید. با دو روش استقرار با
+          مرورگر و استقرار با ابزار CLI می‌توانید خیلی سریع و در کمتر از چند
+          دقیقه وبسایت‌تان را روی سرور اجرا کنید.
+        </p>
+      </div>
+
+      <!-- Pricing Card -->
+      <div
+        class="lg:grid lg:grid-cols-7 space-y-10 lg:space-y-0 max-w-5xl mx-auto mt-12 p-2"
+      >
+        <!-- Card 1 (Freelancer) -->
+        <div class="col-start-1 col-end-3 row-start-2 row-end-3">
+          <div class="bg-white rounded-lg lg:rounded-l-none shadow-lg">
+            <!-- Plan Details -->
+            <div class="flex flex-col items-center py-10 space-y-5">
+              <span class="text-xl font-semibold">پایه</span>
+              <div class="flex items-center">
+                <span class="text-gray-500 text-2xl">ماهانه /</span>
+                <span class="text-5xl font-bold mx-2">85</span>
+                <span class="text-base">هزار تومان</span>
+              </div>
+            </div>
+            <!-- Features List -->
+            <div class="bg-gray-50 border-t-2 border-gray-100 rounded-b-lg p-6">
+              <ul class="space-y-4">
+                <li class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-indigo-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-gray-600 mr-2">۲۰ دیپلوی در روز</p>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-indigo-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-gray-600 mr-2">امکان بازگشت به نسخه‌ی قبل</p>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-indigo-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-gray-600 mr-2">بیلدر خارج از کشور</p>
+                </li>
+              </ul>
+              <div class="flex justify-center mt-8">
+                <a
+                  href="#"
+                  class="w-full bg-white text-center py-4 font-bold text-indigo-600 rounded-lg shadow hover:bg-gray-50"
+                >
+                  خرید
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 (Startup) -->
+        <div class="col-start-3 col-end-6 row-start-1 row-end-4">
+          <div
+            class="bg-white rounded-lg shadow-lg relative ring-2 ring-indigo-600 z-10"
+          >
+            <!-- Plan Details -->
+            <div class="flex justify-center w-full">
+              <span
+                class="rounded-full bg-indigo-600 py-1 px-4 text-white absolute -top-5"
+              >
+                مقرون به صرفه
+              </span>
+            </div>
+            <div class="flex flex-col items-center py-10 space-y-5">
+              <span class="text-xl font-semibold">پیشرفته</span>
+              <div class="flex items-center">
+                <span class="text-gray-500 text-2xl">ماهانه /</span>
+                <span class="text-5xl font-bold mx-2">199</span>
+                <span class="text-base">هزار تومان</span>
+              </div>
+            </div>
+            <!-- Features List -->
+            <div class="bg-gray-50 border-t-2 border-gray-100 rounded-b-lg p-6">
+              <ul class="space-y-4">
+                <li class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-indigo-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-gray-600 mr-2">تمام امکانات پایه</p>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-indigo-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-gray-600 mr-2">۱۰۰ دیپلوی در روز</p>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-indigo-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-gray-600 mr-2"
+                    >پشتیبان‌گیری اتوماتیک روزانه
+                  </p>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-indigo-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-gray-600 mr-2">استقرار بدون اختلال</p>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-indigo-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-gray-600 mr-2">نگه‌داری لاگ‌ها</p>
+                </li>
+              </ul>
+              <!-- Purchase Button -->
+              <div class="flex justify-center mt-8">
+                <a
+                  href="#"
+                  class="bg-indigo-600 text-white text-center w-full py-4 font-bold rounded-lg shadow hover:bg-indigo-500"
+                >
+                  Buy Plan
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 (Enterprise) -->
+        <div class="col-start-6 col-end-8 row-start-2 row-end-3">
+          <div class="bg-white rounded-lg lg:rounded-r-none shadow-lg">
+            <!-- Plan Details -->
+            <div class="flex flex-col items-center py-10 space-y-5">
+              <span class="text-xl font-semibold">سازمانی</span>
+              <div class="flex items-center">
+                <span class="text-gray-500 text-2xl">ماهانه /</span>
+                <span class="text-5xl font-bold mx-2">499</span>
+                <span class="text-base">هزار تومان</span>
+              </div>
+            </div>
+            <!-- Features List -->
+            <div class="bg-gray-50 border-t-2 border-gray-100 rounded-b-lg p-6">
+              <ul class="space-y-4">
+                <li class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-indigo-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-gray-600 mr-2">تمام امکانات حرفه ای</p>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-indigo-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-gray-600 mr-2">بی نهایت دیپلوی در روز</p>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-indigo-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p class="text-gray-600 mr-2">پشتیبانی اختصاصی شبانه روزی</p>
+                </li>
+              </ul>
+              <!-- Purchase Button -->
+              <div class="flex justify-center mt-8">
+                <a
+                  href="#"
+                  class="bg-white text-indigo-600 text-center w-full py-4 font-bold rounded-lg shadow hover:bg-gray-200"
+                >
+                  خرید
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
